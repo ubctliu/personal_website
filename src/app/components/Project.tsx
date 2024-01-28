@@ -1,7 +1,11 @@
-const Project = () => {
+type ProjectProps = {
+  projectName: string
+};
+
+const Project = ({ projectName } : ProjectProps) => {
   return (
     <article>
-      <title></title>
+      <p>{projectName}</p>
     </article>
   );
 };
