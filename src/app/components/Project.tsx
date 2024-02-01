@@ -10,9 +10,11 @@ const Project = ({ projectName, projectLink } : ProjectProps) => {
   return (
     <article>
       <p>{projectName}</p>
-      <a href={projectLink}>
-        <Image src={linkImage} alt={"project link image"} width={25} height={25}/>
-      </a>
+      <div>
+        <a href={projectLink} className={"inline-block"}>
+          <Image src={linkImage} alt={"project link image"} width={25} height={25}/>
+        </a>
+      </div>
     </article>
   );
 };
