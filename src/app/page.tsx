@@ -6,9 +6,11 @@ export default function Home() {
   return (
     <>
       <title className="">Terrence&apos;s Portfolio</title>
-      <Hero />
-      <Projects />
-      <About/>
+      <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+        <Hero />
+        <Projects />
+        <About/>
+      </div>
     </>
   );
 }
