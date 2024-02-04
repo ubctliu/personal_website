@@ -4,7 +4,7 @@ import linkedInLogo from "../../../public/linkedin.svg";
 
 const Contact = () => {
   return (
-    <section className={"flex flex-row space-x-1"}>
+    <section className={"flex flex-row space-x-1 justify-center items-center"}>
       <a href={"https://github.com/ubctliu"}>
         <Image src={githubLogo} alt={"github logo"} width={25} height={25}/>
       </a>
