@@ -4,7 +4,6 @@ import odysseyImage from "../../../public/odyssey.png";
 const Projects = () => {
   return (
     <section className={""}>
-      
       <a href={"#projects"} className={"no-underline inline-block"}>
         <div className={"mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-3xl lg:text-4xl dark:text-white"}>Projects</div>
       </a>
