@@ -5,7 +5,7 @@ import mailLogo from "../../../public/envelope-fill.svg";
 
 const Contact = () => {
   return (
-    <section className={"flex flex-row space-x-1 justify-center items-center"}>
+    <section id={"contact"} className={"flex flex-row space-x-1 justify-center items-center"}>
       <a href={"https://github.com/ubctliu"} className={"hover:scale-110"}>
         <Image src={githubLogo} alt={"github logo"} width={25} height={25}/>
       </a>
