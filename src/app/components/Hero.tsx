@@ -1,9 +1,19 @@
+import Personal from "@/app/components/Personal";
+import kyotoImage from "../../../public/kyoto.png";
+import Image from "next/image";
+
 const Hero = () => {
   return (
-    <>
-      <div className={"mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"}>Hello, I&apos;m Terrence Liu!</div>
-      <div className={"mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400"}>I&apos;m a full-stack developer from Vancouver with a passion for learning new technologies and exploring new ideas!</div>
-    </>
+    <section>
+      <Personal />
+      <div className="py-4">
+        <div className="flex justify-center">
+          <Image src={kyotoImage} alt={"photo from kyoto trip"} height={800} width={500} />
+        </div>
+        <p className="text-slate-500">I love to travel during my time off and to try new things!</p>
+        <p className="text-slate-500">This one&apos;s from my time in Kyoto, Japan!</p>
+      </div>
+    </section>
   );
 };
 
