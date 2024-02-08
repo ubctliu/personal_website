@@ -14,11 +14,11 @@ const Project = ({ projectName, projectLink, liveLink, projectImage } : ProjectP
     <article>
       <p className={"text-xl font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400"}> {projectName} </p>
       <div className={"flex justify-center space-x-2"}>
-        <a href={projectLink} className={"inline-block"}>
+        <a href={projectLink} className={"inline-block hover:scale-110"}>
           <Image src={linkImage} alt={"project link image"} width={25} height={25}/>
         </a>
         {liveLink &&
-        <a href={liveLink} className={"inline-block"}>
+        <a href={liveLink} className={"inline-block hover:scale-110"}>
           <Image src={liveLinkImage} alt={"live link image"} width={20} height={20}/>
         </a>}
       </div>
