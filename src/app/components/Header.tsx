@@ -25,7 +25,7 @@ const Header = () => {
               <Menu.Item>
                 {({ active }) => (
                   <a
-                    className={`${active && 'bg-blue-500'}`}
+                    className={`${active && 'bg-blue-500'} no-underline`}
                     href="#projects"
                   >
               Projects
@@ -35,7 +35,7 @@ const Header = () => {
               <Menu.Item>
                 {({ active }) => (
                   <a
-                    className={`${active && 'bg-blue-500'}`}
+                    className={`${active && 'bg-blue-500'} no-underline`}
                     href="#contact"
                   >
               Contact
