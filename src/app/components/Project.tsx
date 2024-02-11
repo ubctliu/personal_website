@@ -6,7 +6,7 @@ type ProjectProps = {
   projectName: string,
   projectLink: string,
   liveLink?: string,
-  projectImage?: string | StaticImageData;
+  projectImage?: string | StaticImageData,
 };
 
 const Project = ({ projectName, projectLink, liveLink, projectImage } : ProjectProps) => {
