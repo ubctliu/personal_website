@@ -1,7 +1,7 @@
 "use client";
 import menuImage from "../../../public/list.svg";
 import Image from "next/image";
-import { Fragment, useEffect, useRef, useState } from 'react';
+import { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react';
 
 const Header = () => {
