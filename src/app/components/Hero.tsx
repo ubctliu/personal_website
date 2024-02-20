@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section>
       <Personal />
-      <div className="py-4">
+      <div className="py-3">
         <div className="flex justify-center">
           <Image src={kyotoImage} alt={"photo from kyoto trip"} height={800} width={500} />
         </div>
