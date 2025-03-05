@@ -11,7 +11,7 @@ type ProjectProps = {
 
 const Project = ({ projectName, projectLink, liveLink, projectImage } : ProjectProps) => {
   return (
-    <article>
+    <article className={"mb-8"}>
       <p className={"text-xl font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400"}> {projectName} </p>
       <div className={"flex justify-center space-x-2"}>
         <a href={projectLink} className={"inline-block hover:scale-110"}>
