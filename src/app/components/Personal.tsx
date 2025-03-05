@@ -5,7 +5,7 @@ const Personal = () => {
       <div className={"mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400"}>
       I&apos;m a full-stack developer based in Vancouver with a passion for exploring new technologies and ideas. 
       I specialize in building web and mobile applications using TypeScript, JavaScript, React, and React Native, and I have experience developing scalable systems on cloud platforms like AWS and Azure. 
-      Currently, I'm focusing on full-stack development using React Native and React, but I also have experience working with Java and other technologies. 
+      Currently, I&apos;m focusing on full-stack development using React Native and React, but I also have experience working with Java and other technologies. 
       Feel free to reach out if you&apos;d like to connect or learn more!
       </div>
     </section>
